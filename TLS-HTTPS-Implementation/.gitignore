@@ -1,0 +1,68 @@
+# Private keys - NEVER commit these!
+*.key
+rootCA.key
+server.key
+client.key
+
+# Session keys
+keylog.txt
+*.keylog
+
+# Certificate signing requests (temporary)
+*.csr
+
+# Temporary files
+*.tmp
+*.log
+*.swp
+*~
+
+# Backup files
+*.bak
+*.backup
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE files
+.vscode/
+.idea/
+*.sublime-*
+*.code-workspace
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+.Python
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# Wireshark temp files
+*.pcapng~
+
+# Compiled binaries
+*.o
+*.so
+*.exe
+*.dll
+*.out
+a.out
+
+# Archives
+*.zip
+*.tar
+*.tar.gz
+*.rar
+*.7z
+
+# Certificates (optional - uncomment if you don't want to share certs)
+# *.crt
+# rootCA.crt
+# server.crt
+# client.crt
